@@ -41,9 +41,3 @@ Some of the Unity runtime and editor code from MAZE, the Unity playground projec
 - `MazeSvgImporter` turns SVG files into MazeVector assets with reusable import settings.
 - `MazeProfiler` records feature groups, timings, automatic candidates, and current custom render-pass activity.
 - `MazeDiagnosticsLog` writes short structured runtime logs for the included systems.
-
-## Layout
-
-- `Source/Runtime` contains project-facing components and reusable runtime code.
-- `Source/Editor` contains inspectors, importers, bakers, and authoring windows.
-- `Source/Shaders` contains the shared URP rendering shaders.
